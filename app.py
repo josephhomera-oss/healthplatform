@@ -11,6 +11,7 @@ import ollama
 import tempfile
 import os
 import pandas as pd
+
 try:
     import cv2
 except ImportError:
