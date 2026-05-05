@@ -1,0 +1,7 @@
+{"event": "login", "user": "supervisor", "timestamp": "2026-03-02T11:31:07.245444Z", "session": "fc46b9ec", "details": {"role": "supervisor", "status": "success"}}
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+{"event": "us_advice_requested", "user": "supervisor", "timestamp": "2026-03-02T11:37:01.473892Z", "session": "fc46b9ec", "details": {"anatomy": "Hepatic Standard View (portal bifurcation)", "step": 1, "quality": 32}}
+{"event": "radiology_analysis_start", "user": "supervisor", "timestamp": "2026-03-02T11:37:30.337053Z", "session": "fc46b9ec", "details": {"patient_id": "PT-2025-001", "has_context": false}}
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+{"event": "radiology_analysis_start", "user": "supervisor", "timestamp": "2026-03-02T11:37:35.146951Z", "session": "fc46b9ec", "details": {"patient_id": "PT-2025-001", "has_context": false}}
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
