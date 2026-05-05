@@ -11,7 +11,12 @@ import ollama
 import tempfile
 import os
 import pandas as pd
-
+try:
+    import cv2
+except ImportError:
+    import subprocess
+    subprocess.check_call(['pip', 'install', 'opencv-python-headless'])
+    import cv2
 # ------------------------------------------------------------------
 # Enhanced Custom CSS for Premium UI
 # ------------------------------------------------------------------
